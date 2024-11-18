@@ -1,0 +1,3 @@
+spring.application.name=demo.book-store-app
+
+spring.datasource.url = jdbc:mysql://localhost:3306/bookstore
