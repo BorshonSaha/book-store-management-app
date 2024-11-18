@@ -16,9 +16,17 @@ public class Book {
 	private double price;
 	private String imageUrl;
 
-	public Book(int id) {
+	public Book() {
+		super();
+	}
+
+	public Book(int id, String title, String author, double price, String imageUrl) {
 		super();
 		this.id = id;
+		this.title = title;
+		this.author = author;
+		this.price = price;
+		this.imageUrl = imageUrl;
 	}
 
 	public int getId() {
@@ -26,7 +34,7 @@ public class Book {
 	}
 
 	public void setId(int id) {
-		id = id;
+		this.id = id;
 	}
 
 	public String getTitle() {
